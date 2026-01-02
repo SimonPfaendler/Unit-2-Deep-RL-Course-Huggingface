@@ -56,7 +56,7 @@ Where:
 
 ---
 
-## 💻 Installation & Usage
+## Installation & Usage
 
 To run these notebooks locally, you need to install the following dependencies.
 
