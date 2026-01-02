@@ -2,9 +2,9 @@
 
 # 🤖 Q-Learning Agents: FrozenLake & Taxi
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?style=flat&logo=python)
-![Gymnasium](https://img.shields.io/badge/Gymnasium-v1.0-green?style=flat&logo=openai)
-![Reinforcement Learning](https://img.shields.io/badge/Deep_RL-Q--Learning-red)
+[![Python](https://img.shields.io/badge/Python-3.x-blue?style=flat&logo=python&logoColor=white)](https://www.python.org/)
+[![Gymnasium](https://img.shields.io/badge/Gymnasium-v1.0-green?style=flat&logo=openai&logoColor=white)](https://gymnasium.farama.org/)
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Deep_RL_Class-yellow)](https://huggingface.co/deep-rl-course/unit2/introduction)
 
 This repository contains my solutions for two classic Reinforcement Learning environments from **Gymnasium**: `FrozenLake-v1` and `Taxi-v3`. 
 
