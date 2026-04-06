@@ -1,6 +1,6 @@
 # Unit-2-Deep-RL-Course-Huggingface
 
-# 🤖 Q-Learning Agents: FrozenLake & Taxi
+# Q-Learning Agents: FrozenLake & Taxi
 
 [![Python](https://img.shields.io/badge/Python-3.x-blue?style=flat&logo=python&logoColor=white)](https://www.python.org/)
 [![Gymnasium](https://img.shields.io/badge/Gymnasium-v1.0-green?style=flat&logo=openai&logoColor=white)](https://gymnasium.farama.org/)
@@ -12,7 +12,7 @@ Both environments were solved using **Q-Learning** (Table-based Reinforcement Le
 
 ---
 
-## ❄️ Environment 1: FrozenLake-v1
+## Environment 1: FrozenLake-v1
 **Configuration:** 4x4 Grid, No Slippery (`is_slippery=False`)
 
 **Goal:** The agent must navigate a frozen lake from the Start (S) to the Goal (G) without falling into Holes (H).
@@ -27,7 +27,7 @@ Both environments were solved using **Q-Learning** (Table-based Reinforcement Le
 
 ---
 
-## 🚖 Environment 2: Taxi-v3
+## Environment 2: Taxi-v3
 **Goal:** The taxi must pick up a passenger at one of four designated locations and drop them off at the correct destination.
 
 * **State Space:** 500 discrete states.
@@ -40,7 +40,7 @@ Both environments were solved using **Q-Learning** (Table-based Reinforcement Le
 
 ---
 
-## 🧠 How it Works: Q-Learning
+## How it Works: Q-Learning
 Q-Learning is an off-policy value-based algorithm. The agent maintains a **Q-Table** of shape `(state_space, action_space)`, where each cell contains the expected future reward for taking a specific action in a specific state.
 
 The table is updated using the **Bellman Equation**:
